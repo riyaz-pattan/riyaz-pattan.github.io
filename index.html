@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pattan Riyaz — Mobile App Developer & Creator</title>
+  <meta name="description" content="Official developer portal for Pattan Riyaz, developer of Mental Calculation Tricks (com.speedmathwithai).">
+  <style>
+    :root {
+      --primary: #4F46E5;
+      --primary-hover: #4338CA;
+      --bg: #0F172A;
+      --card-bg: #1E293B;
+      --text: #F8FAFC;
+      --text-muted: #94A3B8;
+      --border: #334155;
+      --accent: #10B981;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      padding: 2.5rem 1.5rem 1.5rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.35rem 0.85rem;
+      background: rgba(79, 70, 229, 0.15);
+      color: #818CF8;
+      border: 1px solid rgba(79, 70, 229, 0.3);
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    main {
+      flex: 1;
+      max-width: 900px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    .app-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    }
+    @media (min-width: 640px) {
+      .app-card-header {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+    }
+    .app-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 1rem;
+      background: linear-gradient(135deg, #4F46E5, #06B6D4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-weight: bold;
+      color: white;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+    }
+    .app-title-group h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .app-package {
+      font-family: monospace;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      margin-top: 0.25rem;
+    }
+    .app-desc {
+      color: #CBD5E1;
+      font-size: 1rem;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      padding-top: 0.5rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      font-size: 0.95rem;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+    .btn-primary:hover {
+      background: var(--primary-hover);
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-outline:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: #64748B;
+    }
+    .meta-section {
+      margin-top: 2.5rem;
+      background: rgba(30, 41, 59, 0.5);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+    }
+    .meta-section h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.75rem;
+      color: #E2E8F0;
+    }
+    .meta-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    .meta-links a {
+      color: #818CF8;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .meta-links a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">Google Play Verified Developer</div>
+    <h1>Pattan Riyaz</h1>
+    <p class="subtitle">Official Developer Website &amp; Portal for Android Applications</p>
+  </header>
+
+  <main>
+    <div class="app-card">
+      <div class="app-card-header">
+        <div class="app-icon">∑</div>
+        <div class="app-title-group">
+          <h2>Mental Calculation Tricks</h2>
+          <div class="app-package">com.speedmathwithai</div>
+        </div>
+      </div>
+      <p class="app-desc">
+        Master lightning-fast mental arithmetic, Vedic math techniques, and competitive exam calculation shortcuts with an intelligent adaptive coach, tactile keypad, and progress analytics.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.speedmathwithai" target="_blank" rel="noopener">
+          View on Google Play
+        </a>
+        <a class="btn btn-outline" href="https://riyaz-pattan.github.io/speed-math-pro-privacy/" target="_blank" rel="noopener">
+          Privacy Policy
+        </a>
+        <a class="btn btn-outline" href="/app-ads.txt" target="_blank" rel="noopener">
+          app-ads.txt
+        </a>
+      </div>
+    </div>
+
+    <div class="meta-section">
+      <h3>Developer &amp; App Transparency</h3>
+      <div class="meta-links">
+        <a href="mailto:riyazpattan987@gmail.com">Contact Developer: riyazpattan987@gmail.com</a>
+        <a href="/app-ads.txt">AdMob app-ads.txt Specification</a>
+        <a href="https://riyaz-pattan.github.io/speed-math-pro-privacy/">Data Safety &amp; Privacy Policy</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 Pattan Riyaz. All rights reserved.
+  </footer>
+</body>
+</html>
